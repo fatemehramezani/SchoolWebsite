@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8223d6a6a5c34e3b8e6f9d1dd50e008f" Name="Diagram1" ZoomLevel="100">
+        <EntityTypeShape EntityType="DatabaseModel.Applicant" Width="1.5" PointX="5.375" PointY="4.625" />
+        <EntityTypeShape EntityType="DatabaseModel.Application" Width="1.5" PointX="0.5" PointY="4.5" />
+        <EntityTypeShape EntityType="DatabaseModel.ExceptionHandler" Width="1.5" PointX="3" PointY="4.25" />
+        <EntityTypeShape EntityType="DatabaseModel.News" Width="1.5" PointX="10.625" PointY="5.75" />
+        <EntityTypeShape EntityType="DatabaseModel.Photo" Width="1.5" PointX="7.5" PointY="6.875" />
+        <EntityTypeShape EntityType="DatabaseModel.Profile" Width="1.5" PointX="7.375" PointY="11.375" />
+        <EntityTypeShape EntityType="DatabaseModel.Question" Width="1.5" PointX="12.875" PointY="6.5" />
+        <EntityTypeShape EntityType="DatabaseModel.RelatedContent" Width="1.5" PointX="8.625" PointY="9.5" />
+        <EntityTypeShape EntityType="DatabaseModel.Role" Width="1.5" PointX="1.625" PointY="8.875" />
+        <EntityTypeShape EntityType="DatabaseModel.User" Width="1.5" PointX="4.25" PointY="9.875" />
+        <AssociationConnector Association="DatabaseModel.FK_Applicant_User" />
+        <AssociationConnector Association="DatabaseModel.FK_Role_Application" />
+        <AssociationConnector Association="DatabaseModel.FK_User_Application" />
+        <AssociationConnector Association="DatabaseModel.FK_Profile_User" />
+        <AssociationConnector Association="DatabaseModel.UsersInRole" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,82 @@
+﻿
+.button {
+    border-color: #A51F2E;
+    font-family: B Yekan;
+    font-size: 8pt;
+    height: 10px;
+    background-color: #0099CC;
+    color: #FFFFFF;
+}
+.adminDiv
+{
+	text-align:right;
+	padding:15px;
+	direction:rtl;
+	font-family: B Yekan;
+    font-size:8pt;    
+}
+.tblNew
+{
+	direction:rtl;
+	font-family: B Yekan;
+    font-size:8pt;    
+    text-align:right;
+}
+.button-image
+{
+	background-image:url(../softimages/apply.png);
+	font-family: B Yekan;
+    font-size:8pt; 
+}
+.englishInput
+{
+	font-family: B Yekan;
+    font-size:8pt;
+    direction:ltr;
+}
+.filename {
+    text-decoration: none;
+    color: #ca171e;
+    text-align: center;
+    vert-align: middle;
+}
+.ms-list8-main {
+    border: .75pt solid #1E80B5;
+    background-color: #B4DDF3;
+}
+.ms-list8-tl {
+    font-weight: bold;
+    color: #1E80B5;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom: .75pt solid #1E80B5;
+    background-color: #51b0e3;
+    font-size: 12px;
+    font-family: tahoma;
+}
+.ms-list8-left { font-weight: bold; color: #1E80B5; border-style: none }
+.ms-list8-top { font-weight: bold; color: #1E80B5; border-left: .75pt solid #1E80B5; 
+               border-right-style: none; border-top-style: none; font-size: 10px;
+    font-family: tahoma;
+               border-bottom: .75pt solid #1E80B5; background-color: #FFFFFF }
+.ms-list8-even { font-weight: normal; color: #1E80B5; border-left: .75pt solid #1E80B5; 
+               border-right-style: none; border-top-style: none; 
+               border-bottom-style: none; background-color: #B4DDF3 }
+.ms-list8-odd {
+    font-weight: normal;
+    color: #1E80B5;
+    border-left: .75pt solid #1E80B5;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+    background-color: #FFFFFF;
+}
+               
+.ms-list8-bottom { font-weight: bold; color: #1E80B5; border-left: .75pt solid #1E80B5; 	
+               border-right-style: none; border-bottom-style: none; 
+               border-top: .75pt solid #1E80B5; background-color: #51b0e3 }
+.date-style
+{
+ direction:rtl;
+}

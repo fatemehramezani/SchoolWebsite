@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="صفحه اصلی">
+    <siteMapNode url="~/Default.aspx" description="../App_Themes/Default/images/home-btn-text.png" title="home"/>
+    <!--برای ثبت نام بیماران است بنابراین نقش بیمار را به صورت کد شده به همراه سمیکلن در انتهای آن برایش ارسال می نماییم-->
+
+    <siteMapNode url="~/Guest/Gallery.aspx" description="../App_Themes/Default/images/gallery-btn-text.png" title="gallery"/>
+    <siteMapNode url="~/Guest/Paper.aspx" description="../App_Themes/Default/images/papers-btn-text.png" title="papers"/>
+    <siteMapNode url="~/Guest/AboutUs.aspx" description="../App_Themes/Default/images/about-btn-text.png" title="about"/>
+    <siteMapNode url="~/Guest/Contact.aspx"  description="../App_Themes/Default/images/contact-btn-text.png" title="contact"/>
+    <siteMapNode url="~/Guest/Schedular.aspx"  description="../App_Themes/Default/images/schedular-btn-text.png" title="schedular"/>
+    <siteMapNode url="~/Login.aspx" description="../App_Themes/Default/images/login-btn-text.png" title="login"/>
+    <siteMapNode url="~/Register.aspx?Roles=UGF0aWVudDs=" description="../App_Themes/Default/images/sign-up-btn-text.png"  title="sign-up"/>
+  </siteMapNode>
+</siteMap>
+
+<!--<span data-type="icon" class="sti-icon sti-icon-home sti-item"></span>    
+    <span data-type="icon" class="sti-icon sti-icon-gallery sti-item"></span>
+    <span data-type="icon" class="sti-icon sti-icon-papers sti-item"></span>
+    <span data-type="icon" class="sti-icon sti-icon-about sti-item"></span>  
+    <span data-type="icon" class="sti-icon sti-icon-contact sti-item"></span>  
+    <span data-type="icon" class="sti-icon sti-icon-login sti-item"></span>  
+  <a href="#" id="signup" target="_self">    
+    <span data-type="icon" class="sti-icon sti-icon-sign-up sti-item"></span>-->
+

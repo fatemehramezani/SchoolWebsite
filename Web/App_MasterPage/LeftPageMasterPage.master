@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/App_MasterPage/DefaultMasterPage.master" AutoEventWireup="true" CodeFile="LeftPageMasterPage.master.cs" Inherits="App_MasterPage_SubPageMasterPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="TitleContent" runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="RightContent" runat="Server">
+    <div id="content">
+        <div class="breadcrumb">
+            <asp:ContentPlaceHolder ID="LinkContent" runat="server" />
+        </div>
+        <h1>
+            <span class="h1-top">
+                <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+            </span>
+        </h1>
+        <div class="information_content">
+            <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server" />
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="LeftContent" runat="Server">
+    <div id="column-left">
+        <asp:ContentPlaceHolder ID="LeftContentPlaceHolder" runat="server" />
+    </div>
+</asp:Content>

@@ -1,0 +1,143 @@
+﻿.jdesign-css3-slider {
+    margin: 30px auto;
+    padding: 0px 0px;
+    width: 448px;
+    height: 286px;
+    position: relative;
+}
+
+    .jdesign-css3-slider li {
+        list-style: none;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+        /* Navigation */
+
+        .jdesign-css3-slider li input + label {
+            position: absolute;
+            bottom: 5px;
+            left: 425px;
+            z-index: 999;
+            font: bold 11px/16px Arial,Sans-Serif;
+            background-color: black;
+            color: white;
+            padding: 0px 0px;
+            width: 16px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .jdesign-css3-slider li:nth-child(2) label {
+            left: 407px;
+        }
+
+        .jdesign-css3-slider li:nth-child(3) label {
+            left: 389px;
+        }
+
+        .jdesign-css3-slider li:nth-child(4) label {
+            left: 371px;
+        }
+
+        .jdesign-css3-slider li:nth-child(5) label {
+            left: 353px;
+        }
+
+        .jdesign-css3-slider li:nth-child(6) label {
+            left: 335px;
+        }
+
+        .jdesign-css3-slider li:nth-child(7) label {
+            left: 317px;
+        }
+
+        .jdesign-css3-slider li:nth-child(8) label {
+            left: 299px;
+        }
+
+        .jdesign-css3-slider li:nth-child(9) label {
+            left: 281px;
+        }
+        /* Images */
+
+        .jdesign-css3-slider li img {
+            border: none;
+            outline: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0px;
+            height: 0px;
+            visibility: hidden;
+            opacity: 0;
+            -webkit-transition: all 2s ease-in-out;
+            -moz-transition: all 2s ease-in-out;
+            -ms-transition: all 2s ease-in-out;
+            -o-transition: all 2s ease-in-out;
+            transition: all 2s ease-in-out;
+            -webkit-transform: rotate(0deg) scale(0);
+            -moz-transform: rotate(0deg) scale(0);
+            -ms-transform: rotate(0deg) scale(0);
+            -o-transform: rotate(0deg) scale(0);
+            transform: rotate(0deg) scale(0);
+        }
+    /* Captions */
+
+    .jdesign-css3-slider a {
+        text-decoration: none !important;
+    }
+
+    .jdesign-css3-slider li a span {
+        cursor: default;
+        direction: rtl;
+        display: block;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(0,0,0,0.8);
+        font: normal 11px/26px tahoma;
+        color: white;
+        padding: 0px 10px;
+        text-align: left;
+        opacity: 0;
+        viibility: hidden;
+        -webkit-transition: all 2s ease-in-out;
+        -moz-transition: all 2s ease-in-out;
+        -ms-transition: all 2s ease-in-out;
+        -o-transition: all 2s ease-in-out;
+        transition: all 2s ease-in-out;
+    }
+    /* Active navigation */
+
+    .jdesign-css3-slider li input:checked + label {
+        background-color: #39f;
+        color: white;
+    }
+    /* Show the image with transition */
+
+    .jdesign-css3-slider li input:checked ~ img, .jdesign-css3-slider li input:checked ~ a img {
+        top: 0%;
+        left: 0%;
+        width: 448px;
+        height: 286px;
+        visibility: visible;
+        -webkit-transform: rotate(720deg) scale(1);
+        -moz-transform: rotate(720deg) scale(1);
+        -ms-transform: rotate(720deg) scale(1);
+        -o-transform: rotate(720deg) scale(1);
+        transform: rotate(720deg) scale(1);
+        opacity: 1;
+        z-index: 99;
+    }
+    /* Show the caption with fade effect */
+
+    .jdesign-css3-slider li input:checked ~ a span {
+        opacity: 1;
+        z-index: 100;
+    }
+    /* Hide the radio */
+
+    .jdesign-css3-slider input {
+        display: none;
+    }

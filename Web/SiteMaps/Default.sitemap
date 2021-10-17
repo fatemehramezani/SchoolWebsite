@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="صفحه اصلی">
+    <siteMapNode url="~/Default.aspx" description="App_Themes/Default/images/home-btn-text.png" title="صفحه اصلی"/>
+	    <siteMapNode url="~/Guest/Question.aspx"  description="App_Themes/Default/images/schedular-btn-text.png" title="نمونه سوالات"/>
+    <siteMapNode url="~/Guest/FamilyRelatedContent.aspx"  description="App_Themes/Default/images/contact-btn-text.png" title="دانستنی های اولیاء"/>
+	<siteMapNode url="~/Guest/TeacherRelatedContent.aspx"  description="App_Themes/Default/images/contact-btn-text.png" title="معرفی مربیان"/>
+    <siteMapNode url="~/Guest/Photo.aspx" description="App_Themes/Default/images/gallery-btn-text.png" title="تصاویر"/>
+    <siteMapNode url="~/Guest/News.aspx" description="App_Themes/Default/images/papers-btn-text.png" title="اخبار"/>
+    <siteMapNode url="~/Guest/WeeklySchedule.aspx" description="App_Themes/Default/images/sign-up-btn-text.png"  title="برنامه هفتگی"/>
+    <siteMapNode url="~/Guest/AboutUs.aspx" description="App_Themes/Default/images/about-btn-text.png" title="درباره ما"/>
+    <siteMapNode url="~/Guest/Contact.aspx"  description="App_Themes/Default/images/contact-btn-text.png" title="تماس با ما"/>
+    <siteMapNode url="~/Login.aspx" description="App_Themes/Default/images/login-btn-text.png" title="ورود"/>
+    <!--<siteMapNode url="~/Register.aspx?Roles=QXBwbGljYW50" description="App_Themes/Default/images/sign-up-btn-text.png"  title="عضویت"/>-->
+  </siteMapNode>
+</siteMap>

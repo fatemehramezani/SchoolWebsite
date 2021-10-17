@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="home">
+      <siteMapNode url="~/Applicant/Default.aspx" title="صفحه اصلی"/>
+      <siteMapNode url="~/Account/Profile.aspx" title="مشخصات خریدار" description="~/App_Themes/Default/images/booking/profile-btn.png"/>
+      <siteMapNode url="~/Applicant/LastRequest.aspx"  title="آخرین خرید"  description="~/App_Themes/Default/images/booking/profile-btn.png"/>
+      <siteMapNode url="~/Applicant/Ticket.aspx"  title="گزارش بلیت"  description="~/App_Themes/Default/images/booking/profile-btn.png"/>
+      <siteMapNode url="~/Account/ChangePassword.aspx" title="تغییر کلمه عبور" description="~/App_Themes/Default/images/booking/change-password-btn.png"/>
+      <siteMapNode url="~/Logout.aspx" title="خروج"/>                    
+    </siteMapNode>
+</siteMap>
